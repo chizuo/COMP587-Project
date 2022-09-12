@@ -1,9 +1,8 @@
 # COMP 587 Project Proposal
 ## Contributor Names: Jonathan Chua & Chris Wheeler
 
-
 ### Links to SUT Source Code
-- [Movie Application]()
+- [Movie Application](https://github.com/chizuo/COMP587-Project-App)
 - [RESTful API as database abstraction layer]()
 - [Database Stored Procedures]()
 
