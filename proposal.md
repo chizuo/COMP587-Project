@@ -16,16 +16,15 @@ The SUT is currently in the software requirements phase.
 The software system will be developed upon approval of the proposal.
 
 ### Attributes
-1. Attribute 1
-2. Attribute 2
-3. Attribute 3
-4. Attribute 4
+1. Intuitive: the application has a strict user interface to reduce unintended client actions with the rest of the system.
+2. Safe: User information is hashed in the database to secure user data. Database is encapsulated by the abstraction layer.
+3. Extensible: limitations by the database technology, in features, can be implemented through the abstraction layer. 
+Application is database agnostic, therefore features requiring different persistent storage technologies for performance won't require the application team to adapt to new interfaces.
 
 ### Components
-1. Component 1
-2. Component 2
-3. Component 3
-4. Component 4 
+1. Client Application: provides users with movie suggestions through a graphical user interface.
+2. RESTful API web service: fetches movie suggestions for the user. Saves any movie that the user wants to consider watching another time. Deletes a movie that was previously saved if the user no longer wants to save it for future consideration. Saves relevant movie data points based on user choices.
+3. Persistent storage solution(s)
 
 ### Capabilities
 1. *TBD*

@@ -1,0 +1,120 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLPackage&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;270&lt;/x&gt;&lt;y&gt;470&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;EmptyPackage
+--
+bg=orange&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>350</x><y>700</y><w>100</w><h>50</h></coordinates><panel_attributes>
+Movie
+Interface
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>680</y><w>110</w><h>70</h></coordinates><panel_attributes>
+On user accept, creates
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>140</y><w>30</w><h>370</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;350</additional_attributes></element><element><id>Text</id><coordinates><x>80</x><y>300</y><w>70</w><h>50</h></coordinates><panel_attributes>
+Request
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>340</x><y>500</y><w>120</w><h>110</h></coordinates><panel_attributes>Client Application </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>140</y><w>260</w><h>450</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;430;240;430;240;10</additional_attributes></element><element><id>Text</id><coordinates><x>680</x><y>330</y><w>100</w><h>70</h></coordinates><panel_attributes>
+Return list
+of movies
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>490</y><w>110</w><h>60</h></coordinates><panel_attributes>
+Suggestion
+Interface
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>510</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>260</y><w>110</w><h>80</h></coordinates><panel_attributes>
+RESTful API
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>280</y><w>170</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>150;10;10;10;10;210</additional_attributes></element><element><id>Text</id><coordinates><x>200</x><y>380</y><w>70</w><h>50</h></coordinates><panel_attributes>
+Request
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>260</y><w>120</w><h>490</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10;100;470;10;470</additional_attributes></element><element><id>Text</id><coordinates><x>520</x><y>710</y><w>180</w><h>50</h></coordinates><panel_attributes>
+Save suggested movie
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>240</x><y>470</y><w>100</w><h>70</h></coordinates><panel_attributes>
+
+User requests
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>600</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>400</x><y>620</y><w>100</w><h>70</h></coordinates><panel_attributes>
+provides
+movie
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>850</y><w>100</w><h>50</h></coordinates><panel_attributes>
+Passed Movies
+Data Points
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>740</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>600</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Text</id><coordinates><x>300</x><y>620</y><w>100</w><h>60</h></coordinates><panel_attributes>
+request 
+movie
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>390</x><y>770</y><w>160</w><h>50</h></coordinates><panel_attributes>
+On user decline, creates
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>700</y><w>100</w><h>50</h></coordinates><panel_attributes>
+Watched Movies
+Data Points
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>720</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>580</y><w>210</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>190;10;10;10;10;120</additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>550</y><w>200</w><h>50</h></coordinates><panel_attributes>
+Program exit request
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>20</y><w>110</w><h>50</h></coordinates><panel_attributes>
+Random Movies
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>90</y><w>110</w><h>50</h></coordinates><panel_attributes>
+Now Playing
+Movies
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>160</y><w>110</w><h>50</h></coordinates><panel_attributes>
+Trending Movies
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>90</y><w>110</w><h>60</h></coordinates><panel_attributes>
+IMDB API
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>90</y><w>110</w><h>60</h></coordinates><panel_attributes>
+IMDB 
+/Web Service/
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>320</y><w>180</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>20;220;160;220;160;10;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>580</x><y>290</y><w>100</w><h>70</h></coordinates><panel_attributes>
+Return movie
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>110</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>30</y><w>150</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>130;10;40;10;40;70;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>130</y><w>150</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>130;60;40;60;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>30</y><w>210</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>190;70;150;70;150;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>110</y><w>210</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>130</y><w>210</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>190;10;150;10;150;60;10;60</additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>0</y><w>70</w><h>50</h></coordinates><panel_attributes>
+GET
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>80</y><w>70</w><h>50</h></coordinates><panel_attributes>
+GET
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>150</y><w>70</w><h>50</h></coordinates><panel_attributes>
+GET
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>380</y><w>110</w><h>70</h></coordinates><panel_attributes>
+Compile 
+&amp; analyze
+user choices
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>440</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Text</id><coordinates><x>400</x><y>450</y><w>80</w><h>50</h></coordinates><panel_attributes>
+Accepted suggestion
+valign=center
+halign=center
+style=wordwrap
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>290</y><w>150</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10;130;120;10;120</additional_attributes></element><element><id>Text</id><coordinates><x>450</x><y>390</y><w>100</w><h>30</h></coordinates><panel_attributes>Save analysis
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>630</y><w>90</w><h>50</h></coordinates><panel_attributes>
+Close client
+application
+valign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>430</y><w>180</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>160;230;130;230;130;10;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>560</x><y>590</y><w>160</w><h>30</h></coordinates><panel_attributes>Ack. of saved analysis
+halign=center
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
