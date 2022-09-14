@@ -17,9 +17,10 @@ The software system will be developed upon approval of the proposal.
 
 ### Attributes
 1. Intuitive: the application has a strict user interface to reduce unintended client actions with the rest of the system.
-2. Safe: User information is hashed in the database to secure user data. Database is encapsulated by the abstraction layer.
+2. Secure: User information is hashed in the database to secure user data. Database is encapsulated by the abstraction layer. Each part that comprises the software system is encapsulated from each other, therefore details of the individual implementations are obfuscated behind the abstraction.
 3. Extensible: limitations by the database technology, in features, can be implemented through the abstraction layer. 
 Application is database agnostic, therefore features requiring different persistent storage technologies for performance won't require the application team to adapt to new interfaces.
+4. Maintainable: each part that comprises the software system is abstracted and encapsulated; enforcing through clearly defined lines, the design principle known as separation of concerns.
 
 ### Components
 1. Client Application: provides users with movie suggestions through a graphical user interface.
@@ -27,15 +28,15 @@ Application is database agnostic, therefore features requiring different persist
 3. Persistent storage solution(s)
 
 ### Capabilities
-1. *TBD*
+1. Client Application is Intuive: The client application has minimal freedom of auxiliary choices behind predefined functionality. Testing coverage should be easily identifiable by the transparency of the domain.
+2. RESTful API web service is extensible: The RESTful API will be stateless and its interface to the application will remain static to the agreed upon domain of initial release. As additional features of the application are added, additional interfaces will be added without concerning the application team of the particulars of how the data is being fetched and stored.
 
 ### Capabilities Count
-| Component | Attribute 1 | Attribute 2 | Attribute 3 | Attribute 4 |
+| Component | Intuitive | Secure | Extensible | Maintainable |
 |-----------|:-----------:|:-----------:|:-----------:|:-----------:|
-| Component 1 | 0 | 0 | 0 | 0 |
-| Component 2 | 0 | 0 | 0 | 0 |
-| Component 3 | 0 | 0 | 0 | 0 |
-| Component 4 | 0 | 0 | 0 | 0 |
+| Application | 0 | 0 | 0 | 0 |
+| Web Service | 0 | 0 | 0 | 0 |
+| Database | 0 | 0 | 0 | 0 |
 
 ### Basic Testing
 Unit tests to validate component capabilities are according to spec.
