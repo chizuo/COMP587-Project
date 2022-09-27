@@ -5,5 +5,5 @@ Supporting documentation for the S.U.T. project for COMP-587: Verification &amp;
 
 The software system under test is comprised of:
 - [Movie suggestion application](https://github.com/chizuo/COMP587-Project-App)
-- [RESTful API web service]()
+- [RESTful API web service](https://github.com/chizuo/COMP587-Project-Service)
 - [Database Stored Procedures]()
